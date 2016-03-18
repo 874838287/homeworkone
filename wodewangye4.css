@@ -1,0 +1,66 @@
+@charset "utf-8";
+body {
+	background-color:#282828;
+	color:#7f571e;
+	font-size: 15pt;
+	margin: 0px;
+	border:0px;
+	padding:0px;
+	
+}
+}
+#titlename{
+	text-align:center;
+	margin-left:15%;
+	margin-right:15%;
+	position:absolute;
+	top:0;
+	
+}
+#titlename {
+	text-align:center;
+	margin: 0px;
+	padding:0px 0px 4px 0px;
+	min-width:294px;
+
+}
+#nv{
+	background-color: white;/*将导航背景改为白色*/
+	width:16%;
+	min-width:165px;
+	margin-top:0px;
+	margin-left:15%;
+	float:left;
+	height:363px;
+
+}
+#nv h3{
+	margin-left:5px ;
+	margin-top:5px ;
+	margin-bottom:0px ;
+}
+#content{
+	margin-right: 15%;
+	margin-left:calc(15%+150px);
+	padding-left:0.5%;
+	padding-right:0.5%;
+	width:53%;
+	min-width:544px;
+	float:right;
+}
+#wenzi{
+	width:70%;
+	min-width:165px;
+	margin-top:0px;
+	margin-left:15%;
+	float:left;
+	height:250px;
+	
+}
+#lala{
+	background-color:#DDD;
+	margin-left:15%;
+	margin-right:15%;
+	padding-left:0.5%;
+	clear:both;
+}
