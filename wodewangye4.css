@@ -1,52 +1,61 @@
 @charset "utf-8";
 body {
-	background-color:#282828;
-	color:#7f571e;
+	background-color:#555;
+	background-image: url("../images/2.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position:center center;
+	background-size:cover;
+	margin:0 0 0 0;
+	color:white;
 	font-size: 15pt;
 	margin: 0px;
 	border:0px;
 	padding:0px;
-	
 }
 }
 #titlename{
+	width:50%;
 	text-align:center;
 	margin-left:15%;
 	margin-right:15%;
-	position:absolute;
 	top:0;
 	
+	
+}
+.aa{
+	width:100%;
 }
 #titlename {
 	text-align:center;
 	margin: 0px;
-	padding:0px 0px 4px 0px;
-	min-width:294px;
-
+	padding:0px 0px 4px 0px;	
+}
+a{
+	text-decoration:none;
+	color:white;
 }
 #nv{
-	background-color: white;/*将导航背景改为白色*/
-	width:16%;
-	min-width:165px;
+	font-size:25pt;
+	text-align:center;
+	margin-left:30%;
+	margin-right:30%;
 	margin-top:0px;
-	margin-left:15%;
-	float:left;
-	height:363px;
-
+	
 }
-#nv h3{
-	margin-left:5px ;
-	margin-top:5px ;
-	margin-bottom:0px ;
+ul{
+	margin-top:-35px;
+	margin-bottom:0px;
+	
+}
+li{
+	display:inline;
+}
+.bb{
+	width:100%;
 }
 #content{
-	margin-right: 15%;
-	margin-left:calc(15%+150px);
-	padding-left:0.5%;
-	padding-right:0.5%;
-	width:53%;
-	min-width:544px;
-	float:right;
+	text-align:center;
 }
 #wenzi{
 	width:70%;
@@ -54,9 +63,14 @@ body {
 	margin-top:0px;
 	margin-left:15%;
 	float:left;
-	height:250px;
-	
+	height:250px;	
 }
+#yy{
+	width:16%;
+	margin-top:0px;
+	margin-left:0%;
+}
+
 #lala{
 	background-color:#DDD;
 	margin-left:15%;
